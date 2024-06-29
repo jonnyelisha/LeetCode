@@ -1,0 +1,15 @@
+Problem 1: 
+Write a solution to find the ids of products that are both low fat and recyclable.
+
+Return the result table in any order.
+URL: https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=study-plan-v2&envId=top-sql-50
+
+
+Solution:
+select product_id from products where low_fats = "Y" and recyclable = "Y";
+
+
+
+Problem 2
+select name from customer where referee_id != 2 or referee_id is null;
+
